@@ -11,11 +11,11 @@ class Calculator:
     def divide(self, a, b):
         return a / b
     
-    def modulo(self, a, b):
-        return a % b
+    def modulo(self, first, second):
+        return first % second
     
-    def power(self, a, b):
-        return a ** b
+    def power(self, first, second):
+        return first ** second
     
 if __name__ == "__main__":
     calc = Calculator()
